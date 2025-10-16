@@ -1,0 +1,6 @@
+# Dependency directories
+.env
+node_modules/
+request.rest
+
+public/assets
