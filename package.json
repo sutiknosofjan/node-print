@@ -1,17 +1,19 @@
 {
-  "name": "indosinar_print",
+  "name": "escpos-print-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple ESC/POS print server for Windows 7 (Node 12)",
+  "main": "print-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node print.js"
+    "start": "node print-server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "you",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12 <=14"
+  },
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "express": "^5.1.0"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
